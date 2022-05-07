@@ -3,7 +3,7 @@ import './App.css';
 import testSocket from "use-socket.io-client";
 function App() {
 
-  const [socket] = testSocket('wss://echo.ta3lom.com',
+  const [socket] = testSocket('wss://abilitesbe.testenv.tech:6003',
       {
         autoConnect: false,
         //any other options
